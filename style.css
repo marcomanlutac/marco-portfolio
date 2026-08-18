@@ -20,7 +20,9 @@ h1{
     font-size: 70px;
     font-family: Archivo Black, sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 p{ 
     line-height: 1.5;
     font-size: 25px;
