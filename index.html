@@ -3,122 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Marco Manlutac</title>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <title>Marco - Video Editor</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    
+    
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#" 
-            style="
-            color: #E63946; 
-            font-weight: bolder;
-            font-family: Archivo Black, sans-serif;">Marco</a>
+    <header>
+        <div class="header-container">
+            <div class="left-head">
+                <img src="Assets/Logo.png" id="logo">
+                <a href="#me"><h3>Marco Manlutac</h3></a>
+            </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navigation">
+                <a href="#info">Info</a>
+                <a href="#works">Works</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Works</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+    <div class="me" id="me">
+        <div class="me-container">
+            <div class="me-left">
+                <img src="Assets/My-Picture.png" id="picture">
+            </div>
+            <div class="me-right">
+                <div class="container-me-right">
+                    <h5>VIDEO EDITOR - THUMBNAIL MAKER - GFX DESIGNER</h5>
+                    <h1>Hello, I'm <br><span style="color: rgb(230, 57, 70);">Marco</span></h1>
+                    <p>I'm a video editor, thumbnail designer, 
+                        and Minecraft GFX artist passionate 
+                        about creating engaging and visually 
+                        appealing content. I enjoy bringing 
+                        ideas to life through creative editing, 
+                        eye-catching thumbnails, and custom 
+                        Minecraft graphics.</p>
+                    <div class="me-buttons">
+                        <a href="#works"><button class="btn-view-work">View Work</button></a>
+                        <a href="#contact"><button class="btn-contact-me">Contact</button></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-
-    <div class="me">
-        <div class="me-content-left">
-            <div class="me-content">
-                <p style="color: #E63946; font-weight: bold;">VIDEO EDITOR - GFX DESIGNER - THUMBNAIL MAKER</p>
-                <h1>Hi, I'm</h1>
-                <h1 style="color: #E63946;">Marco</h1>
-                <p>I am a Computer Science student who loves editing videos.
-                    Currently a freelance video editor particularly gaming videos
-                    and minecraft gaming videos.
-
-                </p>
-            </div>
-            <div class="me-buttons">
-                <button type="button" class="btn btn-danger">My Works</button>
-                <button type="button" class="btn btn-outline-light" href="#contact">Get in Touch</button>
-            </div>
-        </div>
-        <div class="me-content-right">
-            <img src="Assets/My-Picture.png" alt="Picture of me" class="my-picture">
-        </div>
     </div>
 
-    <hr style="border-bottom: 1px solid #333;">
 
+    <div class="info" id="info">
+        <div class="info-container">
 
-    <div class="about" id="about">
-        <p style="color: #E63946; font-weight: bold;">ABOUT</p>
-
-        <div class="about-contents">
-            <div class="about-contents-left">
-                <h1>What I'm Into</h1>
+            <div class="info-top">
+                <h5>INFO</h5>
             </div>
-            <div class="about-contents-right">
-                <div>
-                    <p>
-                        I'm a Computer Science student who enjoys creating things
-                        through both technology and creativity. I've been making
-                        Minecraft content, editing videos, designing thumbnails,
+
+            <div class="info-bot">
+                <div class="left-info">
+                    <h1>WHAT IM INTO</h1>
+                </div>
+
+                <div class="right-info">
+                    <p>I'm a Computer Science student who enjoys creating things 
+                        through both technology and creativity. I've been making 
+                        Minecraft content, editing videos, designing thumbnails, 
                         and creating graphics for different projects.
                     </p>
-
+                    <br>
                     <p>
-                        Outside of content creation, I'm learning web development
-                        and building my own projects. I enjoy experimenting with
-                        different ideas and turning them into something people can
+                        Outside of content creation, I'm learning web development 
+                        and building my own projects. I enjoy experimenting with 
+                        different ideas and turning them into something people can 
                         actually see, use, or interact with.
                     </p>
-                </div>
-                <p style="color: #E63946; font-weight: bold;">WHAT I USE</p>
-                <div class="my-tools">
-                    <span class="badge badge-pill badge-danger">Premiere Pro</span>
-                    <span class="badge badge-pill badge-primary">Photoshop</span>
-                    <span class="badge badge-pill badge-info">After Effects</span>
-                    <span class="badge badge-pill badge-success">Minecraft</span>
-                    <span class="badge badge-pill badge-secondary">OBS Studio</span>
+
+                    <h5>WHAT I USE</h5>
+
+                    <div class="software-info">
+                        <h4 style="background-color: rgb(85, 35, 145);">Premiere Pro</h4>
+                        <h4 style="background-color: rgb(25, 95, 155);">Photoshop</h4>
+                        <h4 style="background-color: rgb(85, 35, 145);">After Effects</h4>
+                        <h4 style="background-color: rgb(50, 115, 55);">Minecraft</h4>
+                        <h4 style="background-color: rgb(25, 70, 135);">Cinema 4D</h4>
+                        <h4 style="background-color: rgb(175, 75, 15);">Blender</h4>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <hr style="border-bottom: 1px solid #333;">
-    
-    <div class="works">
-        
+    <div class="works" id="works">
+        <div class="works-container">
+            <div class="works-top">
+                <h5>WORKS</h5>
+                <h1>My Projects</h1>
+            </div>
+            
+
+            <div class="work-category">
+                <h4 class="category-title">Videos</h4>
+                <div class="works-grid">
+                    <div class="work-card">
+                        <img src="Assets/Videos/1.jpg">
+                        <div class="work-info">
+                            <h4>I challenged the best sword pvpers</h4>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <img src="Assets/Videos/2.jpg">
+                        <div class="work-info">
+                            <h4>Players vs The Rank They Think They Deserve</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-category">
+                <h4 class="category-title">Thumbnails</h4>
+                <div class="works-grid">
+                    <div class="work-card">
+                        <img src="Assets/Thumbnails/1.png">
+                        <div class="work-info">
+                        <h4>I Hired Swight to Secretly Destroy Youtubers</h4>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <img src="Assets/Thumbnails/2.png">
+                        <div class="work-info">
+                        <h4>I Paid Minecraft's Deadliest Player $1,000 To Hunt Me</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-category">
+                <h4 class="category-title">GFX</h4>
+                <div class="works-grid-gfx">
+                    <div class="work-card">
+                        <img src="Assets/Profiles/1.webp">
+                        <div class="work-info">
+                            <h4>Profile for RedStoneCraft</h4>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <img src="Assets/Profiles/2.webp">
+                        <div class="work-info">
+                            <h4>Profile for SwedishYvan</h4>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <img src="Assets/Profiles/3.webp">
+                        <div class="work-info">
+                            <h4>Profile for Raku</h4>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <img src="Assets/Profiles/4.webp">
+                        <div class="work-info">
+                            <h4>Profile for Wesley</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="contact" id="contact"></div>
+    <footer id="contact">
+        <div class="footer-container">
+            <h5>CONTACT</h5>
+            <h1>Lets Work Together.</h1>
+            <p>Looking for a video editor, GFX designer, or thumbnail maker? 
+                Drop me a message and I'll get back to you as soon as I can.</p>
+            <a href="mailto:marcomanlutac@gmail.com"><button>Contact Me</button></a>
+        </div>
+    </footer>
 
-    <div class="card text-center" style="background-color:rgb(15,15,15);">
-        <div class="card-header">
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Freelance Video Editor</h5>
-            <p class="card-text"></p>
-            <a href="mailto:rakucreates@gmail.com" class="btn btn-primary btn-danger">Contact Me</a>
-        </div>
-        <div class="card-footer text-muted">
-                <p>@2026</p>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html> 
+    <p class="copyright">@2026</p>
+</html>
